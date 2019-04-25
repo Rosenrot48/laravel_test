@@ -1,0 +1,77 @@
+
+    html, body {
+        background-color: #e8fcff;
+        color: #6f4647;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 200;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .full-height {
+        height: 100vh;
+    }
+
+    .flex-center {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .position-ref {
+        position: relative;
+    }
+
+    .top-right {
+        position: absolute;
+        right: 10px;
+        top: 18px;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 84px;
+    }
+
+    .links > a {
+        color: #6f2a1e;
+        padding: 0 25px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .m-b-md {
+        margin-bottom: 30px;
+    }
+</style>
+<style>
+    body {
+        font-family: Arial, sans-serif; /* Рубленый шрифт */
+    }
+    .letter {
+        color: #000000; /* Цвет символов */
+        font-size: 120%; /* Размер шрифта в процентах */
+        font-family: serif; /* Шрифт с засечками */
+        position: relative; /* Относительное позиционирование */
+        top: 10px;
+    }
+    #justify { text-align: justify; }
+
+    body {
+        font-family: Arial, sans-serif; /* Рубленый шрифт */
+    }
+    .button {
+
+        color: #ffffff; /* Цвет символов */
+        font-size: 120%; /* Размер шрифта в процентах */
+        font-family: serif; /* Шрифт с засечками */
+        position: relative; /* Относительное позиционирование */
+        bottom: 2px;
+    }
+

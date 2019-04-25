@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif; /* Рубленый шрифт */
+}
+.user {
+    color: #e72c33; /* Красный цвет символов */
+    font-size: 250%; /* Размер шрифта в процентах */
+    font-family: serif; /* Шрифт с засечками */
+    position: relative; /* Относительное позиционирование */
+}
+
+.navbar {
+    background-color: #3f2cff;
+    border-color: #E7E7E7;
+    color: #ffffff;
+    font-size: 120%;
+}
+html, body {
+    background-color: #e8fcff;
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+  body {
+      font-family: Arial, sans-serif; /* Рубленый шрифт */
+  }
+.letter {
+
+    color: #000000; /* Цвет символов */
+    font-size: 170%; /* Размер шрифта в процентах */
+    font-family: serif; /* Шрифт с засечками */
+    position: relative; /* Относительное позиционирование */
+}
+.header {
+
+    color: #3f2cff; /* Цвет символов */
+    font-size: 220%; /* Размер шрифта в процентах */
+    font-family: serif; /* Шрифт с засечками */
+    position: relative; /* Относительное позиционирование */
+}

@@ -9,52 +9,12 @@
         <div class="navbar" >
             <div class="container d-flex justify-content-between">
                 <a href="/" class="navbar d-flex align-items-center">
-                    <strong>Social Network</strong>
+                    <strong>{{env('APP_NAME')}}</strong>
                 </a>
             </div>
         </div>
-        <style>
-            /* navbar */
-            .navbar {
-                background-color: #3f2cff;
-                border-color: #E7E7E7;
-                color: #ffffff;
-                font-size: 120%;
-            }
-            head{
-                background-color: #1b4b72;
-            }
-            body {
-                font-family: Arial, sans-serif; /* Рубленый шрифт */
-            }
-            .user {
-                color: #ff2752; /* Красный цвет символов */
-                font-size: 250%; /* Размер шрифта в процентах */
-                font-family: serif; /* Шрифт с засечками */
-                position: relative; /* Относительное позиционирование */
-            }
-            html, body {
-                background-color: #e8fcff;
-                color: #000000;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
 
-        </style>
-        <style>
-            body {
-                font-family: Arial, sans-serif; /* Рубленый шрифт */
-            }
-            .letter {
-
-                color: #000000; /* Цвет символов */
-                font-size: 120%; /* Размер шрифта в процентах */
-                font-family: serif; /* Шрифт с засечками */
-                position: relative; /* Относительное позиционирование */
-            }
-        </style>
+        <link href="http://localhost:8000/css/users.css" rel="stylesheet">
     </header>
 </head>
 <body>

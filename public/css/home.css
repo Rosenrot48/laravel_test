@@ -1,0 +1,19 @@
+
+body {
+    font-family: Arial, sans-serif; /* Рубленый шрифт */
+}
+.letter {
+    color: #3f2cff; /* Красный цвет символов */
+    font-size: 200%; /* Размер шрифта в процентах */
+    font-family: serif; /* Шрифт с засечками */
+    position: relative; /* Относительное позиционирование */
+}
+body {
+      font-family: Arial, sans-serif; /* Рубленый шрифт */
+  }
+.user {
+    color: #000000; /* Красный цвет символов */
+    font-size: 125%; /* Размер шрифта в процентах */
+    font-family: serif; /* Шрифт с засечками */
+    position: relative; /* Относительное позиционирование */
+}

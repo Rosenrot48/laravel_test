@@ -16,30 +16,10 @@
 
     <!-- Styles -->
     <link href="http://localhost:8000/css/app.css" rel="stylesheet">
+    <link href="http://localhost:8000/css/home.css" rel="stylesheet">
 </head>
 <body>
-<style>
-    body {
-        font-family: Arial, sans-serif; /* Рубленый шрифт */
-    }
-    .letter {
-        color: #3f2cff; /* Красный цвет символов */
-        font-size: 200%; /* Размер шрифта в процентах */
-        font-family: serif; /* Шрифт с засечками */
-        position: relative; /* Относительное позиционирование */
-    }
-</style>
-<style>
-    body {
-        font-family: Arial, sans-serif; /* Рубленый шрифт */
-    }
-    .user {
-        color: #000000; /* Красный цвет символов */
-        font-size: 125%; /* Размер шрифта в процентах */
-        font-family: serif; /* Шрифт с засечками */
-        position: relative; /* Относительное позиционирование */
-    }
-</style>
+
 <div id="app"><nav class="navbar navbar-expand-md navbar-light navbar-laravel"><div class="container">
             <a href="http://localhost:8000" class="navbar-brand">
                 Social Network
@@ -77,7 +57,7 @@
                             <span class="letter">Congratulations! </span></div>
                         <div class="card-body">
                             <span class="user">
-                            <ol>{{Auth::user()->name}},</ol>
+                            <ol>{{Auth::user()->name}} {{Auth::user()->surname}},</ol>
                             <ol>You are logged in!</ol>
                             </span>
                         </div>

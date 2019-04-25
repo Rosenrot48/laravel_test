@@ -11,45 +11,30 @@
                 </div>
             </div>
         </div>
-        <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="navbar box-shadow">
             <div class="container d-flex justify-content-between">
-                <a href="/" class="navbar-brand d-flex align-items-center">
-                    Social Network
+                <a href="/" class="navbar d-flex align-items-center">
+                    {{env('APP_NAME')}}
                 </a>
             </div>
         </div>
     </header>
     <title>User Information</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif; /* Рубленый шрифт */
-        }
-        .user {
-            color: #e72c33; /* Красный цвет символов */
-            font-size: 250%; /* Размер шрифта в процентах */
-            font-family: serif; /* Шрифт с засечками */
-            position: relative; /* Относительное позиционирование */
-        }
-    </style>
-    <style>
-        body {
-            font-family: Arial, sans-serif; /* Рубленый шрифт */
-        }
-        .letter {
-
-            color: #000000; /* Цвет символов */
-            font-size: 170%; /* Размер шрифта в процентах */
-            font-family: serif; /* Шрифт с засечками */
-            position: relative; /* Относительное позиционирование */
-        }
-    </style>
+    <link href="http://localhost:8000/css/user.css" rel="stylesheet">
 </head>
 <body>
 
 <div class="container">
-    <a href="/users" class="navbar-brand d-flex align-items-center">
+    <a href="/users" class="header">
         List of Users
     </a>
+
+    <h1 class="user">User Information</h1>
+    <h1 class="letter">Name: {{$user->name}} {{$user->surname}}</h1>
+    <h2 class="letter">Address: {{$user-> address}}</h2>
+    <h2 class="letter">E-Mail: {{$user->email}}</h2>
+    <h2 class="letter">Telephone Number: {{$user->telephone}} </h2>
+
 
     <div>
         <footer class="text-muted">
@@ -59,7 +44,7 @@
                         back
                     </a>
                     <button type="button" class="btn brn-primary">
-                        <a href="#">Back to top</a>
+                    <a href="#">Back to top</a>
                     </button>
                 </p>
             </div>
