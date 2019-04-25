@@ -20,7 +20,7 @@
         </div>
     </header>
     <title>User Information</title>
-    <link href="http://localhost:8000/css/user.css" rel="stylesheet">
+    <link href="{{env('APP_URL')}}/css/user.css" rel="stylesheet">
 </head>
 <body>
 

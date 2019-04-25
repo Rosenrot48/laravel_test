@@ -5,24 +5,24 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="W4yjQQ5qo8gmrXLeebUoZstojpedVlR4xzooQFYF">
 
-    <title>Social Network</title>
+    <title>{{env('APP_NAME')}}</title>
 
     <!-- Scripts -->
-    <script src="http://localhost:8000/js/app.js" defer=""></script>
+    <script src="{{env('APP_URL')}}/js/app.js" defer=""></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="http://localhost:8000/css/app.css" rel="stylesheet">
-    <link href="http://localhost:8000/css/home.css" rel="stylesheet">
+    <link href="{{env('APP_URL')}}/css/app.css" rel="stylesheet">
+    <link href="{{env('APP_URL')}}/css/home.css" rel="stylesheet">
 </head>
 <body>
 
 <div id="app"><nav class="navbar navbar-expand-md navbar-light navbar-laravel"><div class="container">
-            <a href="http://localhost:8000" class="navbar-brand">
-                Social Network
+            <a href={{env('APP_URL')}} class="navbar-brand">
+                {{env('APP_NAME')}}
             </a>
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed">
                 <span class="navbar-toggler-icon"></span>

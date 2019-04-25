@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <link href="http://localhost:8000/css/users.css" rel="stylesheet">
+        <link href="{{env('APP_URL')}}/css/users.css" rel="stylesheet">
     </header>
 </head>
 <body>

@@ -13,7 +13,7 @@
 
         <!-- Styles -->
 
-        <link href="http://localhost:8000/css/welcome.css" rel="stylesheet">
+        <link href="{{env('APP_URL')}}/css/welcome.css" rel="stylesheet">
     </head>
     <body>
         <div class="flex-center ">
